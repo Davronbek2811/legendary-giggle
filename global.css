@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantata+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.box{
+    width: 550px;
+    height: 550px;
+    border-radius: 20px;
+    background: #84ff00a1;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+#boxer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.title{
+    text-align: center;
+    font-family:Roboto,bold;
+    font-size: 20px;
+}
+
+.desc{
+    text-align: center;
+    font-family:Roboto,bold;
+    font-size: 16px;
+}
+
+.flexberish{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+}
+
+.price{
+    text-align: center;
+    font-family:Roboto,bold;
+    font-size: 22px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background: #04fd00a1;
+    cursor: pointer;
+    color: white;
+    transform: scale(105%);
+}

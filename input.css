@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Твой кастомный класс */
+/* .box {
+    @apply w-[200px] h-[200px] mt-[20px];
+} Например так!!!!*/
